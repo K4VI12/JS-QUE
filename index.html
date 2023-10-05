@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.css">
 
     <style>
         .mans {
@@ -33,23 +34,31 @@
         .mans>div>h1{
             position: absolute;
             height: fit-content;
-            top: 5%;
+            top: 0%;
             right: 0%;
-
+            bottom: 0%;
+            margin: auto;
         }
 
         .home{
             position: absolute;
-            top: 0%;
-            bottom: 0%;
+            top: 21%;
             height: 40%;
             width: 25%;
             right: 0%;
-            margin: auto; 
             background: url("assest/5Bg2.gif");
             background-repeat: no-repeat;
             background-color: aqua;
             background-size: cover;
+        }
+
+        section:nth-child(3){
+            position: absolute;
+            left: 0%;
+            top: 70%;
+            right: 0%;
+            margin: auto;
+            width: fit-content;
         }
         
     </style>
@@ -84,6 +93,13 @@
     </div>
 
     <section class="home"></section>
+
+    <section>
+        <button id="startbtn" type="button" class="btn btn-primary">Start</button>
+        <button id="stopbtn" type="button" class="btn btn-danger">Stop</button>
+    </section>
+
+    <script rel="stylesheet" href="assest/js/bootstrap.js" ></script>
 </body>
 
 </html>
