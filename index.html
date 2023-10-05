@@ -8,19 +8,32 @@
 
     <style>
         .mans {
-            position: relative;
+            position: absolute;
             display: flex;
             border: 2px solid red;
             width: 70%;
-            
+            height: 200px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;            
         }
 
         .mans>div {
+            border:2px solid aqua;
             width: calc(100%/6);
-            background: url(assest/49A6.gif);
+            background: url("assest/49A6.gif");
             background-repeat: no-repeat;
             background-color: aqua;
             background-size: cover;
+            height: fit-content;
+            height: 100%;
+        }
+
+        .mans>div>h1{
+            position: absolute;
+
         }
 
         
@@ -29,12 +42,30 @@
 
 <body>
     <div class="mans">
-        <div>man_1</div>
-        <div>man_2</div>
-        <div>man_3</div>
-        <div>man_4</div>
-        <div>man_5</div>
-        <div>man_6</div>
+        <div>
+            <h1>A</h1>
+        </div>
+
+        <div>
+            <h1>B</h1>
+        </div>
+
+        <div>
+            <h1>C</h1>
+        </div>
+
+        <div>
+            <h1>D</h1>
+        </div>
+
+        <div>
+            <h1>E</h1>
+        </div>
+
+        <div>
+            <h1>F</h1>
+        </div>
+
     </div>
 </body>
 
